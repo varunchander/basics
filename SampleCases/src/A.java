@@ -8,7 +8,7 @@ public class A {
 		
 	public static void main(String[] args) {
 
-		String tempString = "temp  test   uyt";
+		String tempString = "temptest code edited on saturday now";
 		//temps
 		StringBuffer tempOutBuffer = new StringBuffer();
 		
@@ -22,7 +22,9 @@ public class A {
 			}
 		}
 		
-		System.out.print(tempOutBuffer);
+		long cnt = hSet.stream().count();
+		
+		System.out.print(tempOutBuffer+" : "+cnt);
 		
 	}
 
