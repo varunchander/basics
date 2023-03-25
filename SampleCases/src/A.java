@@ -25,6 +25,8 @@ public class A {
 		long cnt = hSet.stream().count();
 		hSet.stream().distinct().forEach(System.out::println);
 		
+		System.out.print("after merging multiple remote brancehs");
+		
 		System.out.print("character count in given string is as from intellij is: "+cnt);
 		
 	}
