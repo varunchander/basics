@@ -23,7 +23,9 @@ public class A {
 		}
 		
 		long cnt = hSet.stream().count();
-		hSet.stream().forEach(System.out::println);
+		hSet.stream().distinct().forEach(System.out::println);
+		
+		System.out.print("after merging multiple remote branches text is good");
 		
 		System.out.print("character count in given string is as from intellij is: "+cnt);
 
