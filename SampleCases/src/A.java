@@ -23,10 +23,9 @@ public class A {
 		}
 		
 		long cnt = hSet.stream().count();
-		long dist_cnt = hSet.stream().distinct().count();
+		hSet.stream().forEach(System.out::print);
 		
 		System.out.print(tempOutBuffer+" : "+cnt);
-		System.out.print("Distinct count : "+dist_cnt);
 		
 	}
 
