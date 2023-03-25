@@ -8,7 +8,7 @@ public class A {
 		
 	public static void main(String[] args) {
 
-		String tempString = "temptest code edited on saturday now";
+		String tempString = "temptest code edited on saturday now today here";
 		//temps
 		StringBuffer tempOutBuffer = new StringBuffer();
 		
@@ -25,7 +25,7 @@ public class A {
 		long cnt = hSet.stream().count();
 		hSet.stream().forEach(System.out::println);
 		
-		System.out.print("character count in given string is : "+cnt);
+		System.out.print("character count in given string is as from intellij is: "+cnt);
 		
 	}
 
