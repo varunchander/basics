@@ -23,7 +23,7 @@ public class A {
 		}
 		
 		long cnt = hSet.stream().count();
-		hSet.stream().forEach(System.out::print);
+		hSet.stream().forEach(System.out::println);
 		
 		System.out.print(tempOutBuffer+" : "+cnt);
 		
